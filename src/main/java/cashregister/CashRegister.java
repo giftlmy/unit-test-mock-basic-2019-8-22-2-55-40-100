@@ -9,6 +9,7 @@ class CashRegister {
     }
 
     public void process(Purchase purchase) {
+
         printer.print(purchase.asString());
     }
 }
